@@ -48,7 +48,9 @@ Witha a limited understanding of how to parse json data, it was difficult for me
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    I am not endorsed or sponsored by Twitter. Any material belonging to them that is being used by me is only for educational purposes.
+
+    Copyright [2022] [Jonathan Pearson]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
