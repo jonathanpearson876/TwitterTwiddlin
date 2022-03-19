@@ -5,6 +5,7 @@ import android.content.Context
 import androidx.room.Room
 import com.codepath.oauth.OAuthBaseClient
 import com.facebook.stetho.Stetho
+import android.view.Menu
 
 /*
 * This is the Android application itself and is used to configure various settings
@@ -31,6 +32,7 @@ class TwitterApplication : Application() {
         // use chrome://inspect to inspect your SQL database
         Stetho.initializeWithDefaults(this)
     }
+
 
     companion object {
         fun getRestClient(context: Context): TwitterClient {

@@ -17,18 +17,18 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="400dp"
         android:layout_marginEnd="20dp"
-        android:textColor="@color/white"
-        android:backgroundTint="#1DA1F2"
         android:layout_marginBottom="20dp"
+        android:backgroundTint="#000000"
         android:onClick="loginToRest"
-        android:text="@string/login_label" />
+        android:text="@string/login_label"
+        android:textColor="#FF0000" />
 
     <ImageView
         android:id="@+id/ivTwitterLogo"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="200dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
         app:srcCompat="@drawable/twitter_logo_blue" />
 
 </RelativeLayout>

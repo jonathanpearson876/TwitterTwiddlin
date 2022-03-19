@@ -13,7 +13,7 @@
         android:layout_height="50dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:cardCornerRadius="30dp"
+        app:cardCornerRadius="15dp"
         app:cardElevation="10dp"
         android:layout_margin="10dp"
         >
@@ -34,13 +34,13 @@
         android:id="@+id/tvUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="10sp"
         android:textStyle="bold"
         android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/cvImage"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="10dp"
-        tools:text="Jonathan Pearson" />
+        tools:text="Wholesome Memes" />
 
     <TextView
         android:id="@+id/tvTweetBody"
@@ -49,22 +49,21 @@
         android:layout_margin="10dp"
         android:autoLink="all"
         android:textColor="@color/black"
+        android:textSize="11dp"
         app:layout_constraintStart_toEndOf="@+id/cvImage"
         app:layout_constraintTop_toBottomOf="@id/tvUsername"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constrainedWidth="true"
         app:layout_constraintHorizontal_bias="0.0"
-        tools:layout_editor_absoluteY="29dp"
         tools:text="is a learning developer from Jamaica" />
 
     <TextView
         android:id="@+id/tvAtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="jonop123"
+        android:text="WholesomeMeme"
         android:textColor="#97a4ad"
-        android:textSize="15sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@id/tvUsername"
         app:layout_constraintStart_toEndOf="@id/tvAtSign"
         app:layout_constraintTop_toTopOf="@id/cvImage"
@@ -76,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="\u0040"
-        android:textSize="15sp"
+        android:textSize="10sp"
         android:textColor="#97a4ad"
         app:layout_constraintStart_toEndOf="@id/tvUsername"
         app:layout_constraintTop_toTopOf="@id/cvImage"
@@ -89,9 +88,8 @@
         android:id="@+id/ivFavIcon"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="280dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTweetBody"
         app:srcCompat="@drawable/like_icon_twitter" />
@@ -123,40 +121,45 @@
         android:id="@+id/tvFavs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="@id/ivFavIcon"
-        app:layout_constraintTop_toTopOf="@id/ivFavIcon"
-        app:layout_constraintStart_toEndOf="@id/ivFavIcon"
         android:layout_marginLeft="4dp"
+        android:text="TextView"
         android:textColor="#AAB8C2"
-        tools:layout_editor_absoluteX="303dp"
-        tools:layout_editor_absoluteY="76dp" />
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toEndOf="@id/ivFavIcon"
+        app:layout_constraintTop_toTopOf="@id/ivFavIcon"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tvRetweets"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
         android:text="TextView"
-        android:layout_marginLeft="4dp"
         android:textColor="#AAB8C2"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="@id/ivRtIcon"
-        app:layout_constraintTop_toTopOf="@id/ivRtIcon"
         app:layout_constraintStart_toEndOf="@id/ivRtIcon"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="76dp" />
+        app:layout_constraintTop_toTopOf="@id/ivRtIcon"
+        app:layout_constraintVertical_bias="0.3" />
 
     <TextView
         android:id="@+id/tvTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
         android:text="TextView"
         android:textColor="#97a4ad"
-        android:textSize="15sp"
-        android:layout_margin="3dp"
+        android:textSize="10sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="@+id/tvUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/tvAtName"
         app:layout_constraintTop_toTopOf="@+id/tvUsername"
-        app:layout_constraintBottom_toBottomOf="@+id/tvUsername"
-        />
+         />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
