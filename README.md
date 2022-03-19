@@ -101,13 +101,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/jonathanpearson876/TwitterTwiddlin/blob/master/Twitter%20Walkthrough%202.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with ScreentoGif.
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Witha a limited understanding of how to parse json data, it was difficult for me to attempt embedding video or photo material that arrives with each request.  
 
 ## Open-source libraries used
 
@@ -116,7 +116,9 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    I am not endorsed or sponsored by Twitter. Any material belonging to them that is being used by me is only for educational purposes.
+
+    Copyright [2022] [Jonathan Pearson]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
